@@ -1,9 +1,10 @@
 package com.chillcoding
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-
+import android.view.View
 
 
 class MainActivity : AppCompatActivity() {
@@ -44,4 +45,9 @@ class MainActivity : AppCompatActivity() {
         Log.i(MainActivity::class.simpleName, getString(R.string.text_ondestroy))
     }
 
+    //Main button method
+    fun onClickStartQuiz(view : View){
+        val intent = Intent (this,QuizActivity1 :: class.java)
+        startActivity(intent)
+    }
 }

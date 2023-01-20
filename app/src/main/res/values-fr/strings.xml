@@ -9,4 +9,10 @@
     <string name="text_onpause">Pause</string>
     <string name="text_onresume">Repris</string>
     <string name="hello">Bienvenue</string>
+    <string name="start_button">Démarrer Quiz</string>
+    <string name="text_question1">Combien faut-il de zéros pour écrire en chiffres cinquante millions ?</string>
+    <string name="text_question2">Combien de films compte la saga du Seigneur des anneaux de Peter Jackson ?</string>
+    <string name="text_question3">A quelle place est positionné le G dans l\'alphabet ?</string>
+    <string name="text_question4">Combien de tonnes de peinture faut-il pour repeindre la Tour Eiffel ?</string>
+    <string name="text_question5">Nombre de bandes sur le panneau du passage piéton :</string>
 </resources>
