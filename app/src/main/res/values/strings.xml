@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Hello You</string>
+    <string name="app_name">Quiz</string>
+
+    <string name="text_oncreate"> Create </string>
+    <string name="text_onstart" > Start </string>
+    <string name="text_ondestroy">Destroy</string>
+    <string name="text_onstop">Stop</string>
+    <string name="text_onrestart">Restart</string>
+    <string name="text_onpause">Pause</string>
+    <string name="text_onresume">Resume</string>
+    <string name="hello">Welcome !</string>
 </resources>
