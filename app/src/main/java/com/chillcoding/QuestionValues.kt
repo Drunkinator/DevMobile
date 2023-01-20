@@ -7,7 +7,7 @@ object QuestionValues {
         val questionList = ArrayList<Question>()
 
         //1st Question
-        val q1 = Question(1, R.string.text_question1,"5","11","9","7" , 4 )
+        val q1 = Question(1, R.string.text_question1,"6","11","9","7" , 4 )
         questionList.add(q1)
 
         //2nd Question
