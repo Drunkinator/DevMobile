@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Questionnaire</string>
+    <string name="text_oncreate"> Crée </string>
+    <string name="text_onstart" > Démarré </string>
+    <string name="text_ondestroy">Détruit</string>
+    <string name="text_onstop">Arreté</string>
+    <string name="text_onrestart">Redémarré</string>
+    <string name="text_onpause">Pause</string>
+    <string name="text_onresume">Repris</string>
+    <string name="hello">Bienvenue</string>
+</resources>
