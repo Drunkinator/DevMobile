@@ -13,6 +13,7 @@ private lateinit var trueButton: Button
 private lateinit var falseButton: Button
 private lateinit var nextButton: Button
 private lateinit var questionTextView: TextView
+private lateinit var answerTextView: TextView
 private val questionBank= listOf(
     Question(R.string.question1, false),
     Question(R.string.question2, true),
@@ -20,11 +21,24 @@ private val questionBank= listOf(
     Question(R.string.question4, true),
     Question(R.string.question5, false),
     Question(R.string.question6, true))
+
+private val answerBank= listOf(
+    Answer(R.string.answer1),
+    Answer(R.string.answer2),
+    Answer(R.string.answer3),
+    Answer(R.string.answer4),
+    Answer(R.string.answer5),
+    Answer(R.string.answer6))
 private var currentIndex = 0
+private var currentIndex2 = 0
 
 private fun updateQuestion() {
     val questionTextResId = questionBank[currentIndex].questionResId
     questionTextView.setText(questionTextResId)
+}
+private fun updateAnswer() {
+    val answerTextResId = answerBank[currentIndex2].answerResId
+    answerTextView.setText(answerTextResId)
 }
 
 
@@ -39,6 +53,7 @@ class MainActivity : AppCompatActivity() {
         falseButton = findViewById(R.id.false_button)
         nextButton = findViewById(R.id.next_button)
         questionTextView = findViewById(R.id.question_text_view)
+        answerTextView = findViewById(R.id.answerTextView)
         fun checkAnswer(userAnswer: Boolean) {
             val correctAnswer = questionBank[currentIndex].correctAnswer
             val messageResId = if (userAnswer == correctAnswer) {
@@ -55,14 +70,29 @@ class MainActivity : AppCompatActivity() {
         falseButton.setOnClickListener { view: View ->
             checkAnswer(false)
 
-
         }
         val questionTextResId = questionBank[currentIndex].questionResId
+        val answerTextResId = answerBank[currentIndex2].answerResId
         questionTextView.setText(questionTextResId)
+        answerTextView.setText(answerTextResId)
         nextButton.setOnClickListener {
             currentIndex = (currentIndex + 1) % questionBank.size
             val questionTextResId = questionBank[currentIndex].questionResId
             questionTextView.setText(questionTextResId)
+            currentIndex2 = (currentIndex2 + 1) % answerBank.size
+            val answerTextResId = answerBank[currentIndex2].answerResId
+            answerTextView.setText(answerTextResId)
+            answerTextView.visibility = View.INVISIBLE
+        }
+        answerTextView.visibility = View.INVISIBLE
+        trueButton.setOnClickListener {
+            checkAnswer(true)
+            answerTextView.visibility = View.VISIBLE
+        }
+        answerTextView.visibility = View.INVISIBLE
+        falseButton.setOnClickListener {
+            checkAnswer(true)
+            answerTextView.visibility = View.VISIBLE
         }
     }
 

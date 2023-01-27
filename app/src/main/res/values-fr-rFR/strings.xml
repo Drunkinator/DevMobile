@@ -10,4 +10,10 @@
     <string name="question5">La pétanque est un sport olympique. </string>
     <string name="question6">Dans les premières semaines de gestation, la peau des fœtus est transparente. </string>
     <string name="text_next">Question Suivante</string>
+    <string name="answer1">Cet oiseau pèse en réalité moins lourd qu’une pièce de 5 centimes d\'euros, soit environ 2 g pour une taille de 5 cm.</string>
+    <string name="answer2">À cette époque, les carottes en Europe étaient majoritairement violettes. Depuis, la variété orange s’est imposée comme la plus populaire.</string>
+    <string name="answer3">Une huitre peut ainsi changer de sexe une fois par période de reproduction. Plus l’huitre est jeune, plus elle est susceptible de changer de sexe.</string>
+    <string name="answer4">À raison de 2 à 3 œufs par jour, la punaise de lit peut pondre 150 œufs dans votre matelas au cours de sa vie.</string>
+    <string name="answer5">"La Fédération internationale des sports de boules, fondée en 1985, tente de faire ajouter la pétanque aux Jeux olympiques depuis des décennies. "</string>
+    <string name="answer6">À mesure que les semaines avancent, la peau du fœtus devient plus opaque.</string>
 </resources>
