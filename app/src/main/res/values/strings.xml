@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="question1">Elena\'s hummingbird weighs as much as a 20 cent coin.</string>
+    <string name="question2">In the 17th century, carrots weren\'t orange.</string>
+    <string name="question3">Oysters can change sex when mating.</string>
+    <string name="question4">A bedbug can lay 150 eggs in your mattress.</string>
+    <string name="text_oncreate" translatable="false">create</string>
+    <string name="text_onstart" translatable="false">start</string>
+    <string name="text_onresume" translatable="false">resume</string>
+    <string name="text_onpause" translatable="false">pause</string>
+    <string name="text_onrestart" translatable="false">restart</string>
+    <string name="text_onstop" translatable="false">stop</string>
+    <string name="text_ondestroy" translatable="false">destroy</string>
+    <string name="question5">Petanque is an Olympic sport.</string>
+    <string name="question6">In the first weeks of gestation, the skin of the fetus is transparent.</string>
+    <string name="text_next">Next Question</string>
+
+</resources>
