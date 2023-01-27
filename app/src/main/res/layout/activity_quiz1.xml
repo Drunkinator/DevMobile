@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,50 +7,87 @@
     android:fillViewport="true"
     tools:context=".QuizActivity1">
 
-    <LinearLayout
+
+    <TextView
+        android:id="@+id/tv_question"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp"
+        android:layout_marginBottom="412dp"
         android:gravity="center"
->
+        android:text="@string/text_question1"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <LinearLayout
-            android:id="@+id/ll_progress_details"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_gravity="center_horizontal"
-            android:orientation="horizontal">
-            <ProgressBar
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:max="5"
-                android:minHeight="50dp"
-                android:progress="0"
-                android:indeterminate="false"
-                />
-            <TextView
-                android:id="@+id/tv_question"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="532dp"
-                android:gravity="center"
-                android:text="Question n°1"
-                android:textSize="34sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
-                app:layout_constraintStart_toStartOf="parent" />
+    <ProgressBar
+        android:id="@+id/indeterminateBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="341dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="136dp"
+        android:layout_weight="1"
+        android:indeterminate="false"
+        android:max="5"
+        android:minHeight="50dp"
+        android:progress="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
-        </LinearLayout>
-        
+    <Button
+        android:id="@+id/op1_btn"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="292dp"
+        android:gravity="center"
+        android:onClick="wrongAnswer"
+        android:text="@string/text_q1_op1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/op2_btn"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="292dp"
+        android:gravity="center"
+        android:onClick="wrongAnswer"
+        android:text="@string/text_q1_op2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/op3_btn"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="164dp"
+        android:gravity="center"
+        android:onClick="wrongAnswer"
+        android:text="@string/text_q1_op3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/op4_btn"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="164dp"
+        android:gravity="center"
+        android:onClick="goodAnswer"
+        android:text="@string/text_q1_op4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
-    </LinearLayout>
-
-
-
-</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

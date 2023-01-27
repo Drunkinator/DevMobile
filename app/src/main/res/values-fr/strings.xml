@@ -15,4 +15,12 @@
     <string name="text_question3">A quelle place est positionné le G dans l\'alphabet ?</string>
     <string name="text_question4">Combien de tonnes de peinture faut-il pour repeindre la Tour Eiffel ?</string>
     <string name="text_question5">Nombre de bandes sur le panneau du passage piéton :</string>
+    <string name="text_q1_op1">6</string>
+    <string name="text_q1_op2">11</string>
+    <string name="text_q1_op3">9</string>
+    <string name="text_q1_op4">7</string>
+    <string name="text_q2_op1">1</string>
+    <string name="text_q2_op2">2</string>
+    <string name="text_q2_op3">3</string>
+    <string name="text_q2_op4">4</string>
 </resources>

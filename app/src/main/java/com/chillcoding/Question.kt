@@ -3,10 +3,10 @@ package com.chillcoding
 data class Question(
     val id: Int,
     val question: Int,
-    val option1: String,
-    val option2: String,
-    val option3: String,
-    val option4: String,
+    val option1: Int,
+    val option2: Int,
+    val option3: Int,
+    val option4: Int,
     val correctAnswer: Int,
 ){
 
