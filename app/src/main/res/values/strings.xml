@@ -16,5 +16,8 @@
     <string name="question5">Petanque is an Olympic sport.</string>
     <string name="question6">In the first weeks of gestation, the skin of the fetus is transparent.</string>
     <string name="text_next">Next Question</string>
+    <string name="score">Score</string>
+    <string name="restart">Restart</string>
+    <string name="quit">Quit</string>
 
 </resources>
