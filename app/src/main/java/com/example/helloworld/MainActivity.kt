@@ -1,10 +1,14 @@
 package com.example.helloworld
 
-
+import android.widget.ImageView
+import android.widget.PopupMenu
+import androidx.fragment.app.Fragment
+import java.lang.Exception
 import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.Settings
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
@@ -12,11 +16,14 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 private lateinit var trueButton: Button
 private lateinit var falseButton: Button
 private lateinit var nextButton: Button
 private lateinit var questionTextView: TextView
+lateinit var bottomNav : BottomNavigationView
+
 
 private val questionBank= listOf(
     Question(R.string.question1, false),
@@ -45,6 +52,29 @@ class MainActivity : AppCompatActivity() {
         nextButton = findViewById(R.id.next_button)
         questionTextView = findViewById(R.id.question_text_view)
 
+        loadFragment(HomeFragment())
+        bottomNav = findViewById(R.id.bottomNav) as BottomNavigationView
+        bottomNav.setOnItemSelectedListener {
+            when (it.itemId) {
+                R.id.home -> {
+                    loadFragment(HomeFragment())
+                    true
+                }
+                R.id.message -> {
+                    loadFragment(ScoreFragment())
+                    true
+                }
+                R.id.settings -> {
+                    loadFragment(SettingsFragment())
+                    true
+                }
+                else -> {
+                    loadFragment(HomeFragment())
+                    true
+                }
+            }
+        }
+
 
         fun checkAnswer(userAnswer: Boolean) {
             val correctAnswer = questionBank[currentIndex].correctAnswer
@@ -71,6 +101,8 @@ class MainActivity : AppCompatActivity() {
             val questionTextResId = questionBank[currentIndex].questionResId
             questionTextView.setText(questionTextResId)
         }
+
+
     }
 
     override fun onStart() {
@@ -126,4 +158,11 @@ class MainActivity : AppCompatActivity() {
         }
         return super.onOptionsItemSelected(item)
 }
+
+    private  fun loadFragment(fragment: Fragment){
+        val transaction = supportFragmentManager.beginTransaction()
+        transaction.replace(R.id.container,fragment)
+        transaction.commit()
+    }
+
 }
