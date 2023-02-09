@@ -3,14 +3,17 @@
     <string name="app_name">Quiz</string>
     <string name="true_button">Vrai</string>
     <string name="false_button">Faux</string>
-    <string name="question1">Un colibri d\'Elena pèse aussi lourd qu\'une pièce de 20 centimes d\'euros.</string>
-    <string name="question2">Au XVIIe siècle, les carottes n\'étaient pas orange.</string>
-    <string name="question3">Les huitres peuvent changer de sexe au moment de l\'accouplement.</string>
-    <string name="question4">Une punaise de lit peut pondre 150 œufs dans votre matelas.</string>
-    <string name="question5">La pétanque est un sport olympique. </string>
-    <string name="question6">Dans les premières semaines de gestation, la peau des fœtus est transparente. </string>
-    <string name="text_next">Question Suivante</string>
+    <string name="question1">Un colibri d\'Elena pèse aussi lourd qu\'une pièce de 20 centimes d\'euros</string>
+    <string name="question2">Au XVIIe siècle, les carottes n\'étaient pas orange</string>
+    <string name="question3">Les huitres peuvent changer de sexe au moment de l\'accouplement</string>
+    <string name="question4">Une punaise de lit peut pondre 150 œufs dans votre matelas</string>
+    <string name="question5">La pétanque est un sport olympique</string>
+    <string name="question6">Dans les premières semaines de gestation, la peau des fœtus est transparente.</string>
+    <string name="text_next">Question suivante</string>
     <string name="score">Score</string>
-    <string name="restart">Restart</string>
-    <string name="quit">Quit</string>
+    <string name="restart">Rejouer</string>
+    <string name="quit">Quitter</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_score">Score</string>
+    <string name="title_settings">Paramètres</string>
 </resources>
