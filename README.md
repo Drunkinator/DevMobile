@@ -5,6 +5,22 @@
 
 This is a mobile application containing a general knowledge quiz that operates on a True or False system. The questions are explained after each answer.
 
+## Table of Content
+  <ul>
+    <li><a href="#contributors">Contributors</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#versions">Versions</a></li>
+    <li><a href="#evolutions">Evolutions</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+  </ul>
+
 ## Contributors
 * ZIANE Akli : https://www.linkedin.com/in/akli-ziane-009984223/
 * DE GARAM Yoann : https://www.linkedin.com/in/yoann-d-32b377106/
@@ -28,7 +44,25 @@ Install [Android Studio](https://developer.android.com/studio).
 ## Versions
 * V1
 
-![image](https://user-images.githubusercontent.com/57988602/217779389-b4336710-1c6b-47ae-9d33-132f299152e8.png)
-![Screenshot_100](https://user-images.githubusercontent.com/57988602/217780077-8485340e-43b1-4059-8ded-41697534b063.png)
+![gickr com _2016cc32-2f30-b674-196b-d011755ed0dc](https://user-images.githubusercontent.com/57988602/217785490-4a263666-047d-40a5-aa1e-4f3a97b9d629.gif)
 
-## What's comming next
+
+## Evolutions
+
+* Finishing the Menu
+* Add a score system
+* Add Settings
+* General improvement of the UI
+* Add some magic
+
+## Contributing
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Roadmap
+
+See the [open issues](https://github.com/Drunkinator/DevMobile/issues/1) for a list of proposed features (and known issues).
