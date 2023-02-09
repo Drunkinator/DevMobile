@@ -47,6 +47,12 @@ Install [Android Studio](https://developer.android.com/studio).
 ![gickr com _2016cc32-2f30-b674-196b-d011755ed0dc](https://user-images.githubusercontent.com/57988602/217785490-4a263666-047d-40a5-aa1e-4f3a97b9d629.gif)
 
 
+* V2 (09/02/2023)
+
+![gickr com _c890b9b4-42e5-1b74-d513-d330b60b6871](https://user-images.githubusercontent.com/57988602/217799661-03ffd502-8c37-44f3-979d-994ea56e598c.gif)
+
+Complete restructuring of the code for future developments.
+
 ## Evolutions
 
 * Finishing the Menu
