@@ -2,12 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:title="@string/title_home"
-          android:id="@+id/menu_home"/>
+          android:id="@+id/menu_home"
+          android:icon= "@drawable/ic_home"/>
 
     <item android:title="@string/title_score"
-          android:id="@+id/menu_score"/>
+          android:id="@+id/menu_score"
+          android:icon= "@drawable/ic_score"/>
 
     <item android:title="@string/title_settings"
-          android:id="@+id/menu_settings"/>
+          android:id="@+id/menu_settings"
+          android:icon= "@drawable/ic_settings"/>
 
 </menu>
