@@ -25,13 +25,59 @@ lateinit var bottomNav: BottomNavigationView
 
 
 private val questionBank = listOf(
-    Question(R.string.question1, false),
-    Question(R.string.question2, true),
-    Question(R.string.question3, true),
-    Question(R.string.question4, true),
-    Question(R.string.question5, false),
-    Question(R.string.question6, true)
+    Question(R.string.questionSport1, false),
+    Question(R.string.questionSport2, true),
+    Question(R.string.questionSport3, true),
+    Question(R.string.questionSport4, true),
+    Question(R.string.questionSport5, false),
+    Question(R.string.questionSport6, true)
 )
+
+private val questionBank2 = listOf(
+    Question(R.string.questionNature1, false),
+    Question(R.string.questionNature2, true),
+    Question(R.string.questionNature3, true),
+    Question(R.string.questionNature4, true),
+    Question(R.string.questionNature5, false),
+    Question(R.string.questionNature6, true)
+)
+
+private val questionBank3 = listOf(
+    Question(R.string.questionFood1, false),
+    Question(R.string.questionFood2, true),
+    Question(R.string.questionFood3, true),
+    Question(R.string.questionFood4, true),
+    Question(R.string.questionFood5, false),
+    Question(R.string.questionFood6, true)
+)
+
+private val questionBank4 = listOf(
+    Question(R.string.questionArt1, false),
+    Question(R.string.questionArt2, true),
+    Question(R.string.questionArt3, true),
+    Question(R.string.questionArt4, true),
+    Question(R.string.questionArt5, false),
+    Question(R.string.questionArt6, true)
+)
+
+private val questionBank5 = listOf(
+    Question(R.string.questionActuality1, false),
+    Question(R.string.questionActuality2, true),
+    Question(R.string.questionActuality3, true),
+    Question(R.string.questionActuality4, true),
+    Question(R.string.questionActuality5, false),
+    Question(R.string.questionActuality6, true)
+)
+
+private val questionBank6 = listOf(
+    Question(R.string.questionTek1, false),
+    Question(R.string.questionTek2, true),
+    Question(R.string.questionTek3, true),
+    Question(R.string.questionTek4, true),
+    Question(R.string.questionTek5, false),
+    Question(R.string.questionTek6, true)
+)
+
 private var currentIndex = 0
 
 private fun updateQuestion() {

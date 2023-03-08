@@ -2,10 +2,42 @@
     <string name="app_name">Quiz</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
-    <string name="question1">Elena\'s hummingbird weighs as much as a 20 cent coin.</string>
-    <string name="question2">In the 17th century, carrots weren\'t orange.</string>
-    <string name="question3">Oysters can change sex when mating.</string>
-    <string name="question4">A bedbug can lay 150 eggs in your mattress.</string>
+    <string name="questionSport1">Elena\'s hummingbird weighs as much as a 20 cent coin.</string>
+    <string name="questionSport2">In the 17th century, carrots weren\'t orange.</string>
+    <string name="questionSport3">Oysters can change sex when mating.</string>
+    <string name="questionSport4">A bedbug can lay 150 eggs in your mattress.</string>
+    <string name="questionSport5">Petanque is an Olympic sport.</string>
+    <string name="questionSport6">In the first weeks of gestation, the skin of the fetus is transparent.</string>
+    <string name="questionNature1">Elena\'s hummingbird weighs as much as a 20 cent coin.</string>
+    <string name="questionNature2">In the 17th century, carrots weren\'t orange.</string>
+    <string name="questionNature3">Oysters can change sex when mating.</string>
+    <string name="questionNature4">A bedbug can lay 150 eggs in your mattress.</string>
+    <string name="questionNature5">Petanque is an Olympic sport.</string>
+    <string name="questionNature6">In the first weeks of gestation, the skin of the fetus is transparent.</string>
+    <string name="questionFood1">Elena\'s hummingbird weighs as much as a 20 cent coin.</string>
+    <string name="questionFood2">In the 17th century, carrots weren\'t orange.</string>
+    <string name="questionFood3">Oysters can change sex when mating.</string>
+    <string name="questionFood4">A bedbug can lay 150 eggs in your mattress.</string>
+    <string name="questionFood5">Petanque is an Olympic sport.</string>
+    <string name="questionFood6">In the first weeks of gestation, the skin of the fetus is transparent.</string>
+    <string name="questionArt1">Elena\'s hummingbird weighs as much as a 20 cent coin.</string>
+    <string name="questionArt2">In the 17th century, carrots weren\'t orange.</string>
+    <string name="questionArt3">Oysters can change sex when mating.</string>
+    <string name="questionArt4">A bedbug can lay 150 eggs in your mattress.</string>
+    <string name="questionArt5">Petanque is an Olympic sport.</string>
+    <string name="questionArt6">In the first weeks of gestation, the skin of the fetus is transparent.</string>
+    <string name="questionActuality1">Elena\'s hummingbird weighs as much as a 20 cent coin.</string>
+    <string name="questionActuality2">In the 17th century, carrots weren\'t orange.</string>
+    <string name="questionActuality3">Oysters can change sex when mating.</string>
+    <string name="questionActuality4">A bedbug can lay 150 eggs in your mattress.</string>
+    <string name="questionActuality5">Petanque is an Olympic sport.</string>
+    <string name="questionActuality6">In the first weeks of gestation, the skin of the fetus is transparent.</string>
+    <string name="questionTek1">Elena\'s hummingbird weighs as much as a 20 cent coin.</string>
+    <string name="questionTek2">In the 17th century, carrots weren\'t orange.</string>
+    <string name="questionTek3">Oysters can change sex when mating.</string>
+    <string name="questionTek4">A bedbug can lay 150 eggs in your mattress.</string>
+    <string name="questionTek5">Petanque is an Olympic sport.</string>
+    <string name="questionTek6">In the first weeks of gestation, the skin of the fetus is transparent.</string>
     <string name="text_oncreate" translatable="false">create</string>
     <string name="text_onstart" translatable="false">start</string>
     <string name="text_onresume" translatable="false">resume</string>
@@ -13,8 +45,6 @@
     <string name="text_onrestart" translatable="false">restart</string>
     <string name="text_onstop" translatable="false">stop</string>
     <string name="text_ondestroy" translatable="false">destroy</string>
-    <string name="question5">Petanque is an Olympic sport.</string>
-    <string name="question6">In the first weeks of gestation, the skin of the fetus is transparent.</string>
     <string name="text_next">Next Question</string>
     <string name="score">Score</string>
     <string name="restart">Restart</string>
