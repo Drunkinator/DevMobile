@@ -14,7 +14,7 @@
         android:layout_height="403dp"
         android:gravity="center"
         android:padding="24dp"
-        android:text="@string/question1"
+        android:text="@string/questionSport1"
         android:textSize="30sp" />
 
     <LinearLayout
