@@ -2,42 +2,48 @@
     <string name="app_name">Quiz</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
-    <string name="questionSport1">Elena\'s hummingbird weighs as much as a 20 cent coin.</string>
-    <string name="questionSport2">In the 17th century, carrots weren\'t orange.</string>
-    <string name="questionSport3">Oysters can change sex when mating.</string>
-    <string name="questionSport4">A bedbug can lay 150 eggs in your mattress.</string>
+    <!-- Questions Sport -->
+    <string name="questionSport1">The game of pétanque and the game of bocce ball are the same thing.</string>
+    <string name="questionSport2">IThe route of the Tour de France is always the same length.</string>
+    <string name="questionSport3">At Wimbledon in 2010, the fifth set of a match lasted 8 hours and 17 minutes.</string>
+    <string name="questionSport4">In 2017, for the first time, Lady Gaga\'s halftime show attracted more viewers than the Super Bowl itself.</string>
     <string name="questionSport5">Petanque is an Olympic sport.</string>
-    <string name="questionSport6">In the first weeks of gestation, the skin of the fetus is transparent.</string>
-    <string name="questionNature1">Elena\'s hummingbird weighs as much as a 20 cent coin.</string>
+    <string name="questionSport6">The javelin thrown by male and female athletes is the same length.</string>
+    <!-- Questions Nature -->
+    <string name="questionNature1">There are nearly 500 species of cactus in the world.</string>
     <string name="questionNature2">In the 17th century, carrots weren\'t orange.</string>
     <string name="questionNature3">Oysters can change sex when mating.</string>
     <string name="questionNature4">A bedbug can lay 150 eggs in your mattress.</string>
-    <string name="questionNature5">Petanque is an Olympic sport.</string>
-    <string name="questionNature6">In the first weeks of gestation, the skin of the fetus is transparent.</string>
-    <string name="questionFood1">Elena\'s hummingbird weighs as much as a 20 cent coin.</string>
-    <string name="questionFood2">In the 17th century, carrots weren\'t orange.</string>
-    <string name="questionFood3">Oysters can change sex when mating.</string>
-    <string name="questionFood4">A bedbug can lay 150 eggs in your mattress.</string>
-    <string name="questionFood5">Petanque is an Olympic sport.</string>
-    <string name="questionFood6">In the first weeks of gestation, the skin of the fetus is transparent.</string>
-    <string name="questionArt1">Elena\'s hummingbird weighs as much as a 20 cent coin.</string>
-    <string name="questionArt2">In the 17th century, carrots weren\'t orange.</string>
-    <string name="questionArt3">Oysters can change sex when mating.</string>
-    <string name="questionArt4">A bedbug can lay 150 eggs in your mattress.</string>
-    <string name="questionArt5">Petanque is an Olympic sport.</string>
-    <string name="questionArt6">In the first weeks of gestation, the skin of the fetus is transparent.</string>
+    <string name="questionNature5">The azalea is also known as rhododendron.</string>
+    <string name="questionNature6">The orchid gets its name from the Greek word \'orchis\', which means testicle.</string>
+    <!-- Questions Food -->
+    <string name="questionFood1">There are an average of 100,000 bubbles in a bottle of champagne.</string>
+    <string name="questionFood2">Wine has existed for 8000 years.</string>
+    <string name="questionFood3">Ketchup has been sold as a medicine before.</string>
+    <string name="questionFood4">The Great Famine in Ireland was caused by a wheat disease.</string>
+    <string name="questionFood5">The United States is the largest producer of oranges in the world.</string>
+    <string name="questionFood6">It takes 10 years for an apple tree to produce edible apples.</string>
+    <!-- Questions Art -->
+    <string name="questionArt1">Paul Gauguin and Vincent van Gogh painted the Alyscamps series together.</string>
+    <string name="questionArt2">Paul Klee was one of the favorite painters of the Nazis.</string>
+    <string name="questionArt3">The 1998 film Ring is partly inspired by an 18th century Japanese ghost story.</string>
+    <string name="questionArt4">The director of The Texas Chainsaw Massacre, Tobe Hooper, got the idea for the film after seeing a display of chainsaws in a hardware store.</string>
+    <string name="questionArt5">PZola wrote Germinal, The Truth in Marching and The Counterfeiters.</string>
+    <string name="questionArt6">The two most translated French-speaking authors in the world are Belgian and named Georges.</string>
+    <!-- Questions Actuality -->
     <string name="questionActuality1">Elena\'s hummingbird weighs as much as a 20 cent coin.</string>
     <string name="questionActuality2">In the 17th century, carrots weren\'t orange.</string>
     <string name="questionActuality3">Oysters can change sex when mating.</string>
     <string name="questionActuality4">A bedbug can lay 150 eggs in your mattress.</string>
     <string name="questionActuality5">Petanque is an Olympic sport.</string>
     <string name="questionActuality6">In the first weeks of gestation, the skin of the fetus is transparent.</string>
-    <string name="questionTek1">Elena\'s hummingbird weighs as much as a 20 cent coin.</string>
-    <string name="questionTek2">In the 17th century, carrots weren\'t orange.</string>
-    <string name="questionTek3">Oysters can change sex when mating.</string>
-    <string name="questionTek4">A bedbug can lay 150 eggs in your mattress.</string>
-    <string name="questionTek5">Petanque is an Olympic sport.</string>
-    <string name="questionTek6">In the first weeks of gestation, the skin of the fetus is transparent.</string>
+    <!-- Questions Tek -->
+    <string name="questionTek1">Android is an operating system.</string>
+    <string name="questionTek2">Kotlin is a plugin.</string>
+    <string name="questionTek3">Permissions are declared in the Gradle file.</string>
+    <string name="questionTek4">Android is based on a Linux kernel.</string>
+    <string name="questionTek5">A user interface screen is represented by an Activity.</string>
+    <string name="questionTek6">Kotlin was officially supported for Android development in 2016.</string>
     <string name="text_oncreate" translatable="false">create</string>
     <string name="text_onstart" translatable="false">start</string>
     <string name="text_onresume" translatable="false">resume</string>

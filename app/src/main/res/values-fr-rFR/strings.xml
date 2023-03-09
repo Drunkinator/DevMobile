@@ -3,42 +3,48 @@
     <string name="app_name">Quiz</string>
     <string name="true_button">Vrai</string>
     <string name="false_button">Faux</string>
-    <string name="questionSport1">Un colibri d\'Elena pèse aussi lourd qu\'une pièce de 20 centimes d\'euros</string>
-    <string name="questionSport2">Au XVIIe siècle, les carottes n\'étaient pas orange</string>
-    <string name="questionSport3">Les huitres peuvent changer de sexe au moment de l\'accouplement</string>
-    <string name="questionSport4">Une punaise de lit peut pondre 150 œufs dans votre matelas</string>
-    <string name="questionSport5">La pétanque est un sport olympique</string>
-    <string name="questionSport6">Dans les premières semaines de gestation, la peau des fœtus est transparente.</string>
-    <string name="questionNature1">Un colibri d\'Elena pèse aussi lourd qu\'une pièce de 20 centimes d\'euros</string>
+    <!-- Questions Sport -->
+    <string name="questionSport1">La pétanque et la boule de bocce sont la même chose. </string>
+    <string name="questionSport2">Le tracé du Tour de France est toujours de la même longueur.</string>
+    <string name="questionSport3">À Wimbledon en 2010, la cinquième manche d’un match a duré 8 heures 17 minutes.</string>
+    <string name="questionSport4">En 2017, pour la première fois, le spectacle de la mi-temps avec Lady Gaga a attiré plus de téléspectateurs que le Super Bowl lui-même.</string>
+    <string name="questionSport5">La pétanque est un sport olympique.</string>
+    <string name="questionSport6">Le javelot lancé par les athlètes masculins et féminins est de la même longueur.</string>
+    <!-- Questions Nature -->
+    <string name="questionNature1">Il existe près de 500 espèces de cactus dans le monde.</string>
     <string name="questionNature2">Au XVIIe siècle, les carottes n\'étaient pas orange</string>
     <string name="questionNature3">Les huitres peuvent changer de sexe au moment de l\'accouplement</string>
     <string name="questionNature4">Une punaise de lit peut pondre 150 œufs dans votre matelas</string>
-    <string name="questionNature5">La pétanque est un sport olympique</string>
-    <string name="questionNature6">Dans les premières semaines de gestation, la peau des fœtus est transparente.</string>
-    <string name="questionFood1">Un colibri d\'Elena pèse aussi lourd qu\'une pièce de 20 centimes d\'euros</string>
-    <string name="questionFood2">Au XVIIe siècle, les carottes n\'étaient pas orange</string>
-    <string name="questionFood3">Les huitres peuvent changer de sexe au moment de l\'accouplement</string>
-    <string name="questionFood4">Une punaise de lit peut pondre 150 œufs dans votre matelas</string>
-    <string name="questionFood5">La pétanque est un sport olympique</string>
-    <string name="questionFood6">Dans les premières semaines de gestation, la peau des fœtus est transparente.</string>
-    <string name="questionArt1">Un colibri d\'Elena pèse aussi lourd qu\'une pièce de 20 centimes d\'euros</string>
-    <string name="questionArt2">Au XVIIe siècle, les carottes n\'étaient pas orange</string>
-    <string name="questionArt3">Les huitres peuvent changer de sexe au moment de l\'accouplement</string>
-    <string name="questionArt4">Une punaise de lit peut pondre 150 œufs dans votre matelas</string>
-    <string name="questionArt5">La pétanque est un sport olympique</string>
-    <string name="questionArt6">Dans les premières semaines de gestation, la peau des fœtus est transparente.</string>
+    <string name="questionNature5">L\’azalée est aussi connue sous le nom de rhododendron.</string>
+    <string name="questionNature6">L\’orchidée tient son nom du mot grec «orchis», qui signifie testicule.</string>
+    <!-- Questions Food -->
+    <string name="questionFood1">Il y a en moyenne 100 000 bulles dans une bouteille de champagne.</string>
+    <string name="questionFood2">Le vin existe depuis 8000 ans.</string>
+    <string name="questionFood3">Le ketchup a déjà été vendu comme médicament.</string>
+    <string name="questionFood4">La Grande Famine en Irlande a été causée par un parasite du blé.</string>
+    <string name="questionFood5">Les États-Unis sont le plus grand producteur d’oranges dans le monde.</string>
+    <string name="questionFood6">Il faut 10 ans à un pommier pour produire des pommes comestibles.</string>
+    <!-- Questions Art -->
+    <string name="questionArt1">Paul Gauguin et Vincent van Gogh ont peint ensemble la série Alyscamps.</string>
+    <string name="questionArt2">Paul Klee a été un des peintres favoris des nazis.</string>
+    <string name="questionArt3">Le film Ring sorti en 1998 est en partie inspiré d’une histoire de fantôme japonaise datant du 18e siècle.</string>
+    <string name="questionArt4">Le réalisateur de Massacre à la tronçonneuse, Tobe Hooper, a eu l’idée du film en voyant un assortiment de scies à chaîne dans une quincaillerie.</string>
+    <string name="questionArt5">Zola a écrit Germinal, La vérité en marche et Les faux-monnayeurs.</string>
+    <string name="questionArt6">Les deux auteurs francophones les plus traduits au monde sont Belges et prénommés Georges.</string>
+    <!-- Questions Actuality -->
     <string name="questionActuality1">Un colibri d\'Elena pèse aussi lourd qu\'une pièce de 20 centimes d\'euros</string>
     <string name="questionActuality2">Au XVIIe siècle, les carottes n\'étaient pas orange</string>
     <string name="questionActuality3">Les huitres peuvent changer de sexe au moment de l\'accouplement</string>
     <string name="questionActuality4">Une punaise de lit peut pondre 150 œufs dans votre matelas</string>
     <string name="questionActuality5">La pétanque est un sport olympique</string>
     <string name="questionActuality6">Dans les premières semaines de gestation, la peau des fœtus est transparente.</string>
-    <string name="questionTek1">Un colibri d\'Elena pèse aussi lourd qu\'une pièce de 20 centimes d\'euros</string>
-    <string name="questionTek2">Au XVIIe siècle, les carottes n\'étaient pas orange</string>
-    <string name="questionTek3">Les huitres peuvent changer de sexe au moment de l\'accouplement</string>
-    <string name="questionTek4">Une punaise de lit peut pondre 150 œufs dans votre matelas</string>
-    <string name="questionTek5">La pétanque est un sport olympique</string>
-    <string name="questionTek6">Dans les premières semaines de gestation, la peau des fœtus est transparente.</string>
+    <!-- Questions Tek -->
+    <string name="questionTek1">Android est un système d\'exploitation.</string>
+    <string name="questionTek2">Kotlin est un plugin.</string>
+    <string name="questionTek3">Les permissions sont déclarées dans le fichier Graddle.</string>
+    <string name="questionTek4">Android est basé sur un noyeau Linux.</string>
+    <string name="questionTek5">Un écran utilisateur est représenté par une Activity.</string>
+    <string name="questionTek6">Kotlin a été officialisé dans les dévellopements Android en 2016.</string>
     <string name="text_next">Question suivante</string>
     <string name="score">Score</string>
     <string name="restart">Rejouer</string>
