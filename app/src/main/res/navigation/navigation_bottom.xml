@@ -17,9 +17,9 @@
         android:label="Score"
         tools:layout="@layout/fragment_score" />
     <fragment
-        android:id="@+id/menu_settings"
-        android:name="com.example.helloworld.SettingsFragment"
+        android:id="@+id/menu_theme"
+        android:name="com.example.helloworld.ThemeFragment"
         android:label="Settings"
-        tools:layout="@layout/fragment_settings" />
+        tools:layout="@layout/fragment_theme" />
 
 </navigation>
